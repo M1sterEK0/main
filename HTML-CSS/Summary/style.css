@@ -1,0 +1,156 @@
+body {
+	
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #333;
+
+}
+
+span{
+	
+	font-size: 14px;
+	color: #000;
+	transition: 0.3s;
+
+}
+
+table tr td:first-child {
+	
+	padding: 1px;
+
+}
+
+a {
+	
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+a:hover {
+	
+	color: #1A6DBB;
+	transition: 0.3s;
+
+}
+
+::-moz-selection {
+	
+	color: white; 
+	background: #1A6DBB;
+
+}
+
+::selection {
+	
+	color: white; 
+	background: #1A6DBB;
+
+}
+
+.foto {
+	
+	border: 1px solid;
+	border-radius: 90px;  
+	object-fit: cover;
+	width:100px;
+	height:100px;
+
+}
+
+.codewars{
+	margin-top: 20px;
+}
+
+.desc {
+	
+	margin-left: auto;
+	
+}
+
+.content {
+	
+	max-width: 900px;
+	margin:  auto;
+
+}
+
+.intro {
+	
+	margin: 150px 0 90px 0;
+	text-align: center;
+
+}
+
+.intro span {
+	
+	margin-bottom: 10px;
+	font-size: 22px;
+	line-height: 40px;
+
+}
+
+.intro span.highlight {
+	
+	background-color: #333;
+	color: white;
+
+}
+
+.intro span.highlight-red {
+	
+	background-color: darkred;
+	color: white;
+	transition: 0.3s;
+
+}
+
+.intro span.highlight-red:hover {
+	
+	background-color: green;
+	color: white;
+	transition: 0.3s;
+
+}
+
+.CW {
+
+	margin: 0 auto;
+	
+}
+
+
+
+
+
+
+
+
+@media (max-width: 360px) {
+	.intro {
+		
+		margin: 50px 0 50px 0;
+	
+	}
+	
+	.intro span {
+		
+		font-size: 18px;
+		line-height: 28px;
+	
+	}
+	
+	img{
+		
+		display: none;
+	
+	}
+	
+	table {
+		
+		float: none;
+	
+	}
+
+}
