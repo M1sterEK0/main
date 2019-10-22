@@ -1,7 +1,8 @@
 #EKO Module
 
 '''Hi()-Приветствие;
-   ArrayToCsvText() - Преобразование 2-мерного массива в CSV(str)'''
+   ArrayToCsvText(array) - Преобразование 2-мерного массива в CSV(str)
+   DeleteDigits(string) - Удаление цифр из строки. Оставляет только буквы.'''
 
 
 __version__ = 'Module v1.0 (create by M1sterEK0) date: 22.10.2019'
