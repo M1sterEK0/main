@@ -1,5 +1,9 @@
 #EKO Module
 
+'''Hi()-Приветствие;
+   ArrayToCsvText() - Преобразование 2-мерного массива в CSV(str)'''
+
+
 __version__ = 'Module v1.0 (create by M1sterEK0) date: 22.10.2019'
 
 
@@ -20,3 +24,10 @@ def ArrayToCsvText(array):
     
     return '\n'.join(','.join(map(str, line)) for line in array)
     #print('\n'.join(','.join(map(str, line)) for line in array))
+
+
+def DeleteDigits(string):
+	'''Преобразование строки, путем удаления цифр из этой строки. Оставляет только буквы.'''
+
+	return ''.join(x for x in string if not x.isdigit())
+	print(''.join(x for x in a if not x.isdigit()))
